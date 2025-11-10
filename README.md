@@ -34,17 +34,7 @@ Sistema web que utiliza **Inteligência Artificial Generativa** com arquitetura 
 
 - **Necessidade de contextualizar** a IA com a identidade da marca
 
-## 🛠️ Tecnologias
 
-### 💡 Solução Proposta
-
-**Backend:** Python, FastAPI, ChromaDB, SQLAlchemy  - **Personas Personalizáveis** para definir identidade da marca
-
-**Frontend:** Next.js 14, TypeScript, Tailwind CSS  - **Base de Conhecimento** com documentos da empresa
-
-**IA:** Google Gemini Pro  - **Sistema RAG** para contextualização inteligente
-
-- **Geração Multimodal** de textos e hashtags
 
 
 
@@ -65,3 +55,4 @@ Sistema web que utiliza **Inteligência Artificial Generativa** com arquitetura 
 
 
 </div>
+
