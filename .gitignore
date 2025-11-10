@@ -1,0 +1,209 @@
+# ==============================================================================
+# GITIGNORE - Projeto TCC IA Generativa para Instagram
+# ==============================================================================
+
+# ==============================================================================
+# Python / Backend
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# ==============================================================================
+# Node.js / Frontend
+# ==============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# ==============================================================================
+# Environment Variables (IMPORTANTE - NUNCA COMMITAR!)
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# Arquivo de exemplo pode ser commitado
+!.env.example
+
+# ==============================================================================
+# Banco de Dados
+# ==============================================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB (banco vetorial)
+chroma_db/
+chroma_data/
+
+# Uploads de documentos
+uploads/
+temp_uploads/
+
+# ==============================================================================
+# Logs
+# ==============================================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================================================================
+# IDEs e Editores
+# ==============================================================================
+# VSCode
+.vscode/
+!.vscode/settings.json.example
+!.vscode/extensions.json.example
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ==============================================================================
+# Sistema Operacional
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# Linux
+.directory
+.Trash-*
+
+# ==============================================================================
+# Arquivos Temporários
+# ==============================================================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# ==============================================================================
+# Build e Production
+# ==============================================================================
+/build
+/dist
+*.tsbuildinfo
+
+# ==============================================================================
+# Testes e Coverage
+# ==============================================================================
+coverage/
+.nyc_output/
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+*.cover
+.hypothesis/
+.tox/
+
+# ==============================================================================
+# Documentos de Teste e Rascunhos (NÃO COMMITAR)
+# ==============================================================================
+# Arquivos de teste
+test_api.py
+proposta.py
+*.draft.md
+rascunhos/
+notas_pessoais/
+
+# Todos os arquivos Markdown exceto README.md
+*.md
+!README.md
+
+# Scripts de verificação
+pre-commit-check.sh
+
+# ==============================================================================
+# Certificados e Chaves (NUNCA COMMITAR!)
+# ==============================================================================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ==============================================================================
+# Docker
+# ==============================================================================
+.dockerignore
+docker-compose.override.yml
+
+# ==============================================================================
+# Backup Files
+# ==============================================================================
+*.backup
+backup/
+backups/
+
+# ==============================================================================
+# TypeScript
+# ==============================================================================
+*.tsbuildinfo
+next-env.d.ts
+
+# ==============================================================================
+# Misc
+# ==============================================================================
+.cache/
+.parcel-cache/
+.terraform/
